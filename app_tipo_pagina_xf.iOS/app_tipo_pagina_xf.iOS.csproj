@@ -158,4 +158,10 @@
       <Name>app_tipo_pagina_xf</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\Page.png" />
+    <BundleResource Include="Resources\play.png" />
+    <BundleResource Include="Resources\xamarin.png" />
+  </ItemGroup>
 </Project>

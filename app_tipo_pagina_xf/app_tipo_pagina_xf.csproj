@@ -7,4 +7,14 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.583944" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TipoPagina\" />
+    <Folder Include="TipoPagina\Carousel\" />
+    <Folder Include="TipoPagina\Navigation\" />
+    <Folder Include="TipoPagina\Tabbed\" />
+    <Folder Include="TipoPagina\Master\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="TipoPagina\Carousel\IntroducaoApp.cs" />
+  </ItemGroup>
 </Project>
